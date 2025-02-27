@@ -32,6 +32,10 @@ ALLOWED_HOSTS = []
 
 CUSTOM_APPS = [
     "users.apps.UsersConfig",
+    "todos.apps.TodosConfig",
+    "common.apps.CommonConfig",
+    "imgs.apps.ImgsConfig",
+    "exs.apps.ExsConfig",
 ]
 
 SYSTEM_APPS = [
