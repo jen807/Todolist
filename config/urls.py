@@ -22,4 +22,9 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # =>경로를 수정하면 그게 적용이 됨 장고에서 경로에 해당하는 곳은 여기서 지정할 수 있다.
     path("api/v1/users/", include("users.urls")),
+    path("api/v1/todos/", include("todos.urls")),
 ]
+
+# todo 컨텐츠들
+# todo 상세 페이지 -> 수정, 삭제
+# todo 생성
