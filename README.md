@@ -11,6 +11,6 @@
 ### Todo
 - [x] GET - todos
 - [x] GET - todo detail
-- [ ] POST - create todo
-- [ ] PUT - edit todo
+- [x] POST - create todo
+- [x] PUT - edit todo
 - [ ] DELETE - delete todo
