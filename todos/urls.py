@@ -1,6 +1,9 @@
 from django.urls import path, include
-from .views import Todos
+
+# from .views import Todos
+from . import views
 
 urlpatterns = [
-    path("", Todos.as_view()),
+    path("", views.Todos.as_view()),
+    path("<int:pk>", views.TodoDetail.as_view()),
 ]

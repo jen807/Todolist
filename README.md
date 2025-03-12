@@ -10,6 +10,7 @@
 
 ### Todo
 - [x] GET - todos
-- [ ] GET - todo detail
+- [x] GET - todo detail
+- [ ] POST - create todo
 - [ ] PUT - edit todo
 - [ ] DELETE - delete todo
