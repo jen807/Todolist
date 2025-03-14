@@ -2,10 +2,10 @@
 
 ## User
 - [x] GET - me
-- [ ] POST - signup
-- [ ] POST - login
-- [ ] POST - logout
-- [ ] POST - changePassword
+- [x] POST - signup
+- [x] POST - login
+- [x] POST - logout
+- [x] POST - changePassword
 - [ ] PUT - edit user
 
 ### Todo
@@ -14,3 +14,4 @@
 - [x] POST - create todo
 - [x] PUT - edit todo
 - [ ] DELETE - delete todo
+<!-- ->assignment -->
